@@ -1,0 +1,34 @@
+.modal > .modal-section {
+    min-width: 300px;
+    max-width: 800px;
+    min-height: 400px;
+    max-height: 600px;
+    overflow: initial;
+}
+
+.modal > .modal-section .modal-slider {
+    height: 70%;
+    min-height: 300px;
+    padding: unset;
+}
+
+.modal > .modal-section .modal-content-wrapper {
+    height: 30%;
+    padding: unset;
+}
+
+.modal > .modal-section .modal-close {
+    position: absolute;
+}
+
+@media (max-height: 665px) {
+    .modal > .modal-section {
+        min-height: unset;
+        max-height: unset;
+        height: 90%;
+    }
+
+    .modal > .modal-section .modal-slider {
+        min-height: unset;
+    }
+}

@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*балаш 640*/
+.pj-01{
+	background-image:url(../img/640/img-6.jpg);
+}
+/*кот классика 1 640*/
+.pj-02{
+	background-image:url(../img/640/img-3.jpg);
+}
+/*истринская 640*/
+.pj-03{
+	background-image:url(../img/640/img-2.jpg);
+}
+/*кот райта 1 640*/
+.pj-04{
+	background-image:url(../img/640/img-5.jpg);
+}
+/*инт кухни кот 640*/
+.pj-05{
+	background-image:url(../img/640/img-7.jpg);
+}
+/*кот модерн 640*/
+.pj-06{
+	background-image:url(../img/640/img-4.jpg);
+}
+/*инт спортзал 640*/
+.pj-07{
+	background-image:url(../img/640/img-8.jpg);
+}
+/*кот райта 2 640*/
+.pj-08{
+	background-image:url(../img/640/img-9.jpg);
+}
+/*инт баня 640*/
+.pj-09{
+	background-image:url(../img/640/img-10.jpg);
+}
+/*отель 640*/
+.pj-10{
+	background-image:url(../img/640/img-1.jpg);
+}
+/*склад 1 640 1*/
+.pj-11{
+	background-image:url(../img/640/img-11.jpg);
+}
+/*сбербанк 1 640*/
+.pj-12{
+	background-image:url(../img/640/img-12.jpg);
+}
+/*севастополь 640*/
+.pj-13{
+	background-image:url(../img/640/img-16.jpg);
+}
+/*склад 2 640 1*/
+.pj-14{
+	background-image:url(../img/640/img-14.jpg);
+}
+/*сбербанк 2 640*/
+.pj-15{
+	background-image:url(../img/640/img-15.jpg);
+}
+/*кот классик 2 640*/
+.pj-16{
+	background-image:url(../img/640/img-17.jpg);
+}
+/*кварт 120 640*/
+.pj-17{
+	background-image:url(../img/640/img-18.jpg);
+}
+/*кварт 1 комн 640*/
+.pj-18{
+	background-image:url(../img/640/img-19.jpg);
+}
+/*сбербанк 3 640*/
+.pj-19{
+	background-image:url(../img/640/sber-3-3.jpg);
+}
+/*сбербанк 3 640*/
+.pj-21{
+	background-image:url(../img/640/img-001.jpg);
+}
+/*Бекасово 640*/
+.pj-22{
+	background-image:url(../img/640/bec-3.jpg);
+}
+/*Воронежская 640*/
+.pj-23{
+	background-image:url(../img/640/gar-02.jpg);
+}
+/*Москваречеье 640*/
+.pj-24{
+	background-image:url(../img/640/gar-04.jpg);
+}
+/*Ташкент 1 640*/
+.pj-25{
+	background-image:url(../img/640/dvor-01.jpg);
+}
+/*кот классик 1 960*/
+.pjc-01{
+	background-image:url(../img/960/img-2.jpg);
+}
+/*кот модерн 960*/
+.pjc-02{
+	background-image:url(../img/960/img-3.jpg);
+}
+/*инт баня 960*/
+.pjc-03{
+	background-image:url(../img/960/img-5.jpg);
+}
+/*кот райта 1 960*/
+.pjc-04{
+	background-image:url(../img/960/img-4.jpg);
+}
+/*кот райта 2 960 */
+.pjc-05{
+	background-image:url(../img/960/img-1.jpg);
+}
+/*балаш 960*/
+.pjc-06{
+	background-image:url(../img/960/img-6.jpg);
+}
+/*истринская 960*/
+.pjc-07{
+	background-image:url(../img/960/img-7.jpg);
+}
+/*отель 960*/
+.pjc-08{
+	background-image:url(../img/960/img-8.jpg);
+}
+/*севастополь 960*/
+.pjc-09{
+	background-image:url(../img/960/img-9.jpg);
+}
+/*сбербанк 1 960*/
+.pjc-10{
+	background-image:url(../img/960/img-10.jpg);
+}
+/*склад 2 960*/
+.pjc-11{
+	background-image:url(../img/960/img-11.jpg);
+}
+/*склад 1 960*/
+.pjc-12{
+	background-image:url(../img/960/img-12.jpg);
+}
+/*сбербанк 2 960*/
+.pjc-13{
+	background-image:url(../img/960/img-13.jpg);
+}
+/*кот классик 2 960*/
+.pjc-14{
+	background-image:url(../img/960/img-14.jpg);
+}
+/*инт кухни кот 960*/
+.pjc-15{
+	background-image:url(../img/960/img-16.jpg);
+}
+/*инт спортзал 960*/
+.pjc-16{
+	background-image:url(../img/960/img-15.jpg);
+}
+/*кварт 120 960*/
+.pjc-17{
+	background-image:url(../img/960/img-17.jpg);
+}
+/*кварт 1 комн 960*/
+.pjc-18{
+	background-image:url(../img/960/img-19.jpg);
+}
+/*сбербанк 3 960*/
+.pjc-19{
+	background-image:url(../img/960/sber-3-3.jpg);
+}
+/*классика особняк 960*/
+.pjc-21{
+	background-image:url(../img/960/img-001.jpg);
+}
+/*бекасово 960*/
+.pjc-22{
+	background-image:url(../img/960/bec-3.jpg);
+}
+/* Активные */
+
+.project .item:after {
+	content:'';
+	display:block;
+	position:absolute;
+	bottom:0;
+	height:4px;
+	background:#ffffff;
+	width:0%;
+	transition: width .3s ease-in-out;	
+}
+
+.project .item:hover:after {
+	width:100%;
+	transition: width .3s ease-in-out;	
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125737830-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-125737830-1');
+</script>
+          <script>
+    (function(w, d, u, i, o, s, p) {
+        if (d.getElementById(i)) { return; } w['MangoObject'] = o; 
+        w[o] = w[o] || function() { (w[o].q = w[o].q || []).push(arguments) }; w[o].u = u; w[o].t = 1 * new Date();
+        s = d.createElement('script'); s.async = 1; s.id = i; s.src = u;
+        p = d.getElementsByTagName('script')[0]; p.parentNode.insertBefore(s, p);
+    }(window, document, '//widgets.mango-office.ru/widgets/mango.js', 'mango-js', 'mgo'));
+    mgo({calltracking: {id: 14296, elements: [{"numberText":"74956646430"}]}});
+</script>
+
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <title>Проектно-строительная компания “ESKONT” - Контакты</title>
+      <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+      <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" media="screen">
+      <link rel="stylesheet" href="css/project.css" type="text/css" media="screen">
+      <script src="js/jquery.min.js"></script>
+      
+   </head>
+   
+   <body>
+
+      
+      <header>
+         <div class="wrapp">
+            <div class="lx-1-head">
+               <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">ГЛАВНАЯ</a></li>
+                    <li><a href="service.html">УСЛУГИ</a></li>
+                    <li><a href="bim.html">BIM</a></li>
+                    <li><a href="blog.html">СТАТЬИ</a></li>
+                  <li><a href="contact.html" class="active">КОНТАКТЫ</a></li>
+               </ul>
+
+            </nav>
+            
+            <div class="lx-1-head">
+               <div class="menu"><span></span></div>
+            
+               <div class="contact">
+                   <div class="phone">+7 (916) 491-05-00</div>
+               </div>
+            </div>
+            
+            
+         </div>
+      </header>
+      
+           
+            
+      <section class="bg-white no-one-block contact-block">
+         <div class="wrapp">
+            <div class="row ">
+               <div class="xl-sn-3">
+                  <div class="contact-item">
+                     <h3>ОФИС:</h3>
+                     <p>Телефон: +7 (495) 664-47-93</p>
+                     <p>Адрес: 2-я Институтская улица, 6, стр. 15</p>
+                     <p>E-mail: bauprice@mail.ru</p>
+                     <p>Режим работы: Пн-Вс, 10:00-24:00</p>
+                  </div>
+               </div>
+               <div class="xl-sn-3">
+                  <div class="contact-item">
+                     <h3>Производство:</h3>
+                     <p>Телефон: +7 (495) 664-47-93</p>
+                     <p>Адрес: Автомобильный проезд, 10,</p>
+                     <p>E-mail: bauprice@mail.ru</p>
+                     <p>Режим работы: Пн-Вс, 10:00-21:00</p>
+                  </div>
+               </div> 
+            </div>
+               
+         </div>
+      </section>
+       
+     
+      <div id="map" class="map"></div>
+
+      
+      <!-- Подвал -->
+      
+       <section class="footer">
+         <div class="wrapp">
+            <div class="copy">2014-2019 г.г. Производственная компания “Bauprice”. Все права защищены.</div>
+         </div>
+      </section> 
+      
+
+            <div class="burger-menu">
+         <a class="menu_close_btn" href="#"><img src="img/001-error.svg" alt=""></a>
+      
+         <ul id="menid">
+             <li><a href="index.html">ГЛАВНАЯ</a></li>
+             <li><a href="service.html">УСЛУГИ</a></li>
+             <li><a href="bim.html">BIM</a></li>
+             <li><a href="blog.html">СТАТЬИ</a></li>
+                  <li><a href="contact.html" class="active">КОНТАКТЫ</a></li>
+         </ul>
+
+                <div class="phon-me"><a href="tel:++74956644793">+7 (916) 491-05-00</a></div>
+      </div>
+      
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+      <script src="js/mine.js"></script>
+      
+      <script>
+
+      var myMap;
+
+      ymaps.ready(init);
+
+      function init () {
+          var myMap = new ymaps.Map('map', {
+                center: [55.7219,37.7759],
+                zoom: 14,
+		      	controls: ['zoomControl']
+              }, {
+                searchControlProvider: 'yandex#search'
+          });
+		
+		myMap.behaviors.disable('scrollZoom');
+        myMap.behaviors.disable('drag');
+
+        // Создаём макет содержимого.
+        MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+            '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
+        ),
+
+        myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+            hintContent: 'Собственный значок метки',
+            balloonContent: '<p> 2-я Институтская улица, 6, стр. 15</p>'
+        }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+
+   
+        });
+
+    myMap.geoObjects.add(myPlacemark);
+};
+
+</script>
+ 
+  <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(53019256, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/53019256" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+   </body>
+</html>
